@@ -1,3 +1,8 @@
 /config
 /private
 /tmp
+*.bak
+
+# WordPress
+/docroot/uploads
+wp-config.php

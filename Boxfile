@@ -2,3 +2,13 @@
 #
 # Put your deployment settings here.
 #
+version: 2.0
+shared_folders:
+  - docroot/wp-content/uploads
+env_specific_files:
+  docroot/.htaccess:
+    production: .htaccess.production
+    testing: .htaccess.testing
+  docroot/wp-config.php:
+    production: wp-config.production.php
+    testing: wp-config.testing.php
