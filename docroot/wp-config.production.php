@@ -1,6 +1,6 @@
 
 <?php
-require_once('../config/drupal/settings-d7-db2360.php');
+Require_once('/srv/www/freistilbox/clients/c11000/s2062/current/config/drupal/settings-d7-db2360.php');
 /**
  * * The base configuration for WordPress
  *  *
